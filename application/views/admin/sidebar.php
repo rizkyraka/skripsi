@@ -11,7 +11,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-graduation-cap"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">PPDB</div>
+                <div class="sidebar-brand-text mx-3">rizky</div>
             </a>
 
             <!-- Divider -->
