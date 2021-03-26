@@ -27,40 +27,40 @@
                                 <thead class="bg-custom text-light">
                                     <tr>
                                     <th>Kriteria</th>
-                                    <th>IPK</th>
-                                    <th>KTI</th>
-                                    <th>Prestasi</th>
-                                    <th>Bahasa Inggris</th>
+                                    <th>Tes IQ</th>
+                                    <th>Tes Quran</th>
+                                    <th>Tes Mapel</th>
+                                    <th>Rapot</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>IPK</td>
-                                        <td><input type="number" id="ipk_ipk" name="ipk_ipk" class="form-control" min="0" max="9" step="0.01" value=1 disabled></td>
-                                        <td><input type="number" id="ipk_kti" name="ipk_kti" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[0]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="ipk_prestasi" name="ipk_prestasi" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[1]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="ipk_bing" name="ipk_bing" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[2]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td>Tes IQ</td>
+                                        <td><input type="number" id="iq_iq" name="iq_iq" class="form-control" min="0" max="9" step="0.01" value=1 disabled></td>
+                                        <td><input type="number" id="iq_quran" name="iq_quran" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[0]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="iq_mapel" name="iq_mapel" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[1]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="iq_rapot" name="iq_rapot" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[2]->nilai;}else{ echo 0;}?>" required></td>
                                     </tr>
                                     <tr>
-                                        <td>KTI</td>
-                                        <td><input type="number" id="kti_ipk" name="kti_ipk" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[3]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="kti_kti" name="kti_kti" class="form-control" min="0" max="9" step="0.01" value=1 disabled></td>
-                                        <td><input type="number" id="kti_prestasi" name="kti_prestasi" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[4]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="kti_bing" name="kti_bing" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[5]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td>Tes Quran</td>
+                                        <td><input type="number" id="quran_iq" name="quran_iq" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[3]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="quran_quran" name="quran_quran" class="form-control" min="0" max="9" step="0.01" value=1 disabled></td>
+                                        <td><input type="number" id="quran_mapel" name="quran_mapel" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[4]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="quran_rapot" name="quran_rapot" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[5]->nilai;}else{ echo 0;}?>" required></td>
                                     </tr>
                                     <tr>
-                                        <td>Prestasi</td>
-                                        <td><input type="number" id="prestasi_ipk" name="prestasi_ipk" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[6]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="prestasi_kti" name="prestasi_kti" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[7]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="prestasi_prestasi" name="prestasi_prestasi" class="form-control" min="0" max="9" step="0.01" value=1 disabled></td>
-                                        <td><input type="number" id="prestasi_bing" name="prestasi_bing" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[8]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td>Tes Mapel</td>
+                                        <td><input type="number" id="mapel_iq" name="mapel_iq" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[6]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="mapel_quran" name="mapel_quran" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[7]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="mapel_mapel" name="mapel_mapel" class="form-control" min="0" max="9" step="0.01" value=1 disabled></td>
+                                        <td><input type="number" id="mapel_rapot" name="mapel_rapot" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[8]->nilai;}else{ echo 0;}?>" required></td>
                                     </tr>
                                     <tr>
-                                        <td>Bahasa Inggris</td>
-                                        <td><input type="number" id="bing_ipk" name="bing_ipk" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[9]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="bing_kti" name="bing_kti" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[10]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="bing_prestasi" name="bing_prestasi" class="form-control" min="0" step="0.01" max="9" value="<?php if($skala !=null){echo $skala[11]->nilai;}else{ echo 0;}?>" required></td>
-                                        <td><input type="number" id="bing_bing" name="bing_bing" class="form-control" min="0" max="9" step="0.01" value=1 disabled></td>
+                                        <td>Rapot</td>
+                                        <td><input type="number" id="rapot_iq" name="rapot_iq" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[9]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="rapot_quran" name="rapot_quran" class="form-control" min="0" max="9" step="0.01" value="<?php if($skala !=null){echo $skala[10]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="rapot_mapel" name="rapot_mapel" class="form-control" min="0" step="0.01" max="9" value="<?php if($skala !=null){echo $skala[11]->nilai;}else{ echo 0;}?>" required></td>
+                                        <td><input type="number" id="rapot_rapot" name="rapot_rapot" class="form-control" min="0" max="9" step="0.01" value=1 disabled></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -79,15 +79,15 @@
               <thead class="bg-custom text-light">
                 <tr>
                   <th>Kriteria</th>
-                  <th>IPK</th>
-                  <th>KTI</th>
-                  <th>Prestasi</th>
-                  <th>Bahasa Inggris</th>
+                  <th>Tes IQ</th>
+                  <th>Tes Quran</th>
+                  <th>Tes Mapel</th>
+                  <th>Rapot</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                    <td>IPK</td>
+                    <td>Tes IQ</td>
                     <td>1</td>
                     <td><?php 
                     if($skala != null){
@@ -111,7 +111,7 @@
                     ?></td>
                 </tr>
                 <tr>
-                    <td>KTI</td>
+                    <td>Tes Quran</td>
                     <td><?php
                     if($skala != null){
                         echo $skala[3]->nilai;
@@ -136,7 +136,7 @@
                     ?></td>
                 </tr>
                 <tr>
-                    <td>Prestasi</td>
+                    <td>Tes Mapel</td>
                     <td><?php
                     if($skala != null){
                         echo $skala[6]->nilai;
@@ -161,7 +161,7 @@
                     ?></td>
                 </tr>
                 <tr>
-                    <td>Bahasa Inggris</td>
+                    <td>Rapot</td>
                     <td><?php
                     if($skala != null){
                         echo $skala[9]->nilai;
